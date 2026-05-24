@@ -22,6 +22,9 @@ classifiers = [
     "Topic :: Multimedia :: Video :: Non-Linear Editor",
 ]
 
+[project.scripts]
+mlt-pilot = "mlt_pilot.cli:entry_point"
+
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "pytest-cov>=4.0"]
 
